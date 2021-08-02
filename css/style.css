@@ -3,8 +3,8 @@ body{
 	transition: all 1s;
 }
 .profile{
-  height: 500px;
-  width: 400px;
+  height: 300px;
+  width: 200px;
   border-radius: 70%;
 }
 @font-face {
@@ -128,7 +128,7 @@ span.glyphicon.glyphicon-triangle-bottom {
 .skills{
 }
 .experience{
-	background-color: rgba(255,244,1,0.4);	height: 40vh;
+	background-color: rgba(255,244,1,0.4);	height: 80vh;
 	text-align: center;	
 }
 .experience h3{
@@ -509,14 +509,10 @@ font-size: 2em;
   -webkit-transform: scale3d(1.2, 1.2, 1);
           transform: scale3d(1.2, 1.2, 1);
 }
-.social-list-link .fa-linkedin-square:hover{
-      padding-left: 750px;
-      padding-right:100px;
-}
-.social-list-link .fa-linkedin-square{
-  padding-left: 850px;
-  align-self: center;
-  padding-right:20px;
+
+.social-list-link h3{
+  text-align: center;
+  
   
 }
 .projects h4{
